@@ -56,7 +56,7 @@ window.addEventListener("DOMContentLoaded", ()=>{
 
     function openGame(){
         const gameChoice = Math.floor(Math.random()*gameArray.length)
-        window.open(gameArray[gameChoice], 'window', 'width = 700, height = 600, top =100, left = 300   ')
+        window.open(gameArray[gameChoice],'GAME TIME', 'width = 700, height = 600, top =100, left = 300 ')
     
     // gameButton.addEventListener(`click`, () => {
     //    const gameChoice = Math.floor(Math.random()*gameArray.length)
